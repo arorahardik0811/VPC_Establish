@@ -13,7 +13,7 @@ tar xzf /var/cache/npm-cache.tar.gz -C /root/.npm/
 
 # Downloads the web app code as a zip file
 mkdir -p /var/app/
-aws s3 cp s3://S3_BUCKET_NAME/app.zip \
+aws s3 cp s3://S3BucketName/app.zip \
 /var/app/app.zip
 
 # Extracts the web app zip to a directory
